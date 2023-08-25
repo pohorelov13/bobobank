@@ -1,5 +1,7 @@
 package com.pohorelov.bankingdemo.backend.service;
 
+import com.pohorelov.bankingdemo.backend.model.User;
+import com.pohorelov.bankingdemo.backend.repo.UserRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,8 +1,7 @@
 package com.pohorelov.bankingdemo.backend.security;
 
 
-import com.bobank.bakingappdemo.frontend.LoginView;
-import com.bobank.bakingappdemo.service.UserDetailsServiceImpl;
+import com.pohorelov.bankingdemo.views.LoginView;
 import com.pohorelov.bankingdemo.backend.service.UserDetailsServiceImpl;
 import com.vaadin.flow.spring.security.VaadinWebSecurity;
 import lombok.RequiredArgsConstructor;
