@@ -37,14 +37,14 @@ import '@vaadin/vaadin-lumo-styles/vaadin-iconset.js';
 
 const loadOnDemand = (key) => {
   const pending = [];
+  if (key === 'b243432f5107ea0975cca93697141ceb900487c5a4be7562481796feb74ac0d6') {
+    pending.push(import('./chunks/chunk-b243432f5107ea0975cca93697141ceb900487c5a4be7562481796feb74ac0d6.js'));
+  }
   if (key === '45f2dca903bf277e60ea9aae57c94abb98ca6e6835c2683b6e2a845c1343dbee') {
     pending.push(import('./chunks/chunk-45f2dca903bf277e60ea9aae57c94abb98ca6e6835c2683b6e2a845c1343dbee.js'));
   }
   if (key === 'eef24cbf5622ea45edf06d3fd1321b74299d06988bc87f1f0eb4815d9eb79c6a') {
     pending.push(import('./chunks/chunk-eef24cbf5622ea45edf06d3fd1321b74299d06988bc87f1f0eb4815d9eb79c6a.js'));
-  }
-  if (key === 'b243432f5107ea0975cca93697141ceb900487c5a4be7562481796feb74ac0d6') {
-    pending.push(import('./chunks/chunk-b243432f5107ea0975cca93697141ceb900487c5a4be7562481796feb74ac0d6.js'));
   }
   return Promise.all(pending);
 }
