@@ -18,8 +18,7 @@ public class RegistrationFormBinder {
 
     private final static String PASSWORD_PATTERN = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()–[{}]:;',?/*~$^+=<>]).{8,20}$";
     private final static String NAME_PATTERN = "^[A-Za-zА-Яа-я]{2,20}$";
-    private final static String EMAIL_PATTERN = "^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$";
-    ;
+    private final static String EMAIL_PATTERN = "^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
     private final static String PASSWORD_RESTRICTION = "Password must contain 8-20 (at least one number, one uppercase letter, one lowercase letter and a special character)";
     private final static String NAME_RESTRICTION = "Only Latin and Cyrillic characters (from 2 to 20 characters)";
     private final static String EMAIL_RESTRICTION = "Enter correct email";
