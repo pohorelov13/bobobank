@@ -6,6 +6,8 @@ Hello! I'm Bohdan, a Junior Java Developer passionate about building application
 
 This project showcases my skills and expertise in Java development. It's a personal project that I've been working on to demonstrate various aspects of web application development. The primary goal of this project is to provide a simple banking service, which allows users to perform actions such as user registration, login, updating user information, adding cards, and making transactions.
 
+Yoy can try it - https://bobobank-production.up.railway.app/about
+
 ## Technologies Used
 
 This project is built using a variety of technologies to achieve its functionality:
